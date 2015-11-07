@@ -1,0 +1,14 @@
+{application, riak_store, [
+	{description, ""},
+	{vsn, "0.1.0"},
+	{id, "git"},
+	{modules, []},
+	{registered, []},
+	{applications, [
+		kernel,
+		stdlib,
+		riakc
+	]},
+	{mod, {riak_store_app, []}},
+	{env, []}
+]}.
